@@ -29,8 +29,8 @@ def add_bg_from_local(image_path):
 add_bg_from_local(r"C:\Users\new\Pictures\ppp.webp")
 
 # Load the default trained model and dataset
-model = joblib.load(r"C:\Users\new\VS\RESUME PROJCT\Customer_Churn_Project\final_gb_classifier.pkl")
-data = pd.read_csv(r"C:\Users\new\VS\RESUME PROJCT\Customer_Churn_Project\Telco-Customer-Churn.csv")
+model = joblib.load(r"C:\Users\new\VS\vscode.project\RESUME PROJCT\Customer_Churn_Project\final_gb_classifier.pkl",'rb')
+data = pd.read_csv(r"C:\Users\new\VS\vscode.project\RESUME PROJCT\Customer_Churn_Project\Telco-Customer-Churn.csv")
 
 # Preprocess input data
 def preprocess_input(data):
